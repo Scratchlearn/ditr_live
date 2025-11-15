@@ -423,13 +423,13 @@ const Navbar = ({ openAuth }) => {
 
   // ===== Secondary top links (like PW tabs) =====
   const secondaryTabs = [
-    { label: "Vidyapeeth", to: "/courses?tab=vidyapeeth" },
-    { label: "Upskilling", to: "/courses?tab=upskilling" },
-    { label: "PW Store (Books)", to: "/store" },
-    { label: "Real Test", to: "/real-test" },
-    { label: "Class 1st - 8th", to: "/courses?tab=junior" },
-    { label: "Power Batch", to: "/courses?tab=power-batch" },
-  ];
+  { label: "Academics Plus", to: "/courses?tab=academics-plus" },
+  { label: "Career Pathway", to: "/courses?tab=career-pathway" },
+  { label: "Resource Store", to: "/store" },
+  { label: "Assessment Suite", to: "/real-test" },
+  { label: "Junior Program", to: "/courses?tab=junior-program" },
+  { label: "Advanced Batch", to: "/courses?tab=advanced-batch" },
+];
 
   // ===== Helpers =====
   const isDesktop = typeof window !== "undefined" && window.innerWidth >= 1024;
@@ -650,4 +650,5 @@ const Navbar = ({ openAuth }) => {
 };
 
 export default Navbar;
+
 
