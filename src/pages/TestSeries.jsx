@@ -1,2 +1,11 @@
 import React from "react";
-export default () => <div className="p-10 text-center text-xl">Test Series Page (Coming Soon)</div>;
+
+ const TestSeries = () => {
+  return (
+    <div className="p-10 text-center text-xl">
+      Test Series Page (Coming Soon)
+    </div>
+  );
+};
+
+ export default TestSeries;
